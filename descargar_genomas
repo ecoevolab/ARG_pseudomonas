@@ -1,0 +1,14 @@
+#!/bin/env bash
+#$ -N genomasdes
+#$ -o $JOB_NAME.log
+#$ -e $JOB_NAME.error
+#$ -S /bin/bash
+
+date
+echo "===== Beginning pipeline ====="
+
+cd /mnt/atgc-d2/sur/shared_data/genomas_karasov_2018
+java -jar /mnt/atgc-d2/sur/shared_data/genomas_karasov_2018/ena-file-downloader.jar --accessions=PRJEB24450 --format=READS_SUBMITTED --location=. --protocol=FTP --asperaLocation=null --email=danitzy2004@gmail.com
+
+echo "===== Pipeline done ====="
+date
