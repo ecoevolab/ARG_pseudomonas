@@ -1,4 +1,4 @@
-# script para filtrar archivo de snvs 
+# script para filtrar archivo de snvs con 33 genomas 
 setwd("/Users/itzyyp/Documents/lab_sur/ARG/metadata/snvs/33genomas_bacter/")
 x = read.table("snps_combined.catalog.tsv", head = TRUE)
 
