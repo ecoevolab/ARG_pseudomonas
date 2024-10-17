@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Bacter' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.7:bacter v3.0.1" version="2.7">
+
+    <data
+id="UUNS01000001"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ01" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="T---AAAAAAAAAGCAAA-CGAGG-GCTGTAGGATAATAT-A-----------------GTAAAGCTTTGC----------------------------------------------------------------------------------------------------------------------CATCCGAAACCAGCGTCGGTATCTCAGGAGGAACTCGTGTCTTCG------------------------------------------------------------------------GACCTT--GG-CCCG----A---C-C--GTC-GATGCA--GGCG-TG--G--CAT--G-----T----------------------------------------------------------------------GGGCTTCTTCTCCTTGGT-------CGATCGGCCTTG-------------------------------------A-TTGGGCTTAATGGTCACACGAAGATTCATAGGAGCTTAAACTTGATCTTATTTTTGAATTAGAATTCATTGGATATCCAACCCGCTGCTGGTAAGGTGGC----------------------------------------------------------------------------------------------------------------------C-TTATA-GGAA-TCTAATCATCAATG-A---T-A-GC---GTTG-C-TTGA----GTGG--T-CAGA---CTCAG-G---C---A-ACT-TT----CTTA-AC---A-------------AAAGAGAGACA------GCAGGAGG------------------------------------AG------CTGGCAGAGTCTTTCACTCAATG-----------GA-----G--A------TAGA-ATTGTGAGTACAGGCGTGATAGCAACTAGTTGTGACAAAGAAGCTTCATCCTCAGTGCGTAGAGGCCTCTTCGCTCG--CTCGTAGTT---------A-------T----A-----------GTG--------AG-------------------------------------------AAACGGCCGAC-AA-----T"/>
+        <sequence id="seq_alternativo_UTJN01" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="-CCG--------------T-----TT-G------------A-GACTTGGATTTCGACTA------------ATTGAACGAATCGCTTGCCCCCCCTTAAGTAGCACAGCACGTCTCTGCCGCAGACCGTTGAAGCGAGTTGGCCCACTCATTCATAGCCACCCGTATCAATGCTCGATAAGCTTCCCAT---------------------------------------------AGGTGGATGTGGCAAGTTAGGCGGGTTTTCCCTTCCACGCTCGGCCGTTGAAGCGGTTACCAGTACAGGTTG--G---CC--C--A-GGTT-GCG-A-AG---C------AA----T--CAAGA---GG-TGCTA-TACGTTCATAAACATATGCCTATAGAGCCCCTGAAGACGCATCGCTGCTTGTCGAAAGGTTGAAAGCCCA------------------CTAACCC------------GTATCGCCCTTGGTTAGCACGCTGTCGCTGTGTCTAA-C----------------------------------------------------------------------------------------------------GCCTGCCACCGCGAATAGCTTTGTTCTCAAGCTCTGATGCGAGCACTGCAAAGTTCGTCATGAATTCACTATTATGGTGTAATGCTAAAGACCTAGAACGAAATTTGGTTTTCGGCAT-G-----A----A--------------C-CGG-T-T--TAT--C-GAT----AATC--CACA-AACC-AATG-T--A-TAC-AGA-A-GCCA-AATG--G-G--CGT-GGGGCAAAGCTTT-----------TACGCG--------C---ACT--CCCGCATGGACTCGCAACTTGTATAC---TGAGAT-----------------------G-CAAGCCCCC--ATAAG-TC-TAGAT-----C-----------------------------------------------------------------------------TC---------CTATTACCA-TACCTGC-GTCG-GCGCGGCTGAC-----CCGAGC--AGAGCGGTGCGACTTTCTCATCTGAACGGCTGTTTCGGTCGGAT----------A--TACTC-"/>
+        <sequence id="seq_alternativo_UULO01" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="-CCG--------------T-----TT-G------------A-GACTTGGATTTCGACTA------------ATTGAACGAATCGCTTGCCCCCCCTTAAGTAGCACAGCACGTCTCTGCCGCAGACCGTTGAAGCGAGTTGGCCCACTCATTCATAGCCACCCGTATCAATGCTCGATAAGCTTCCCAT---------------------------------------------AGGTGGATGTGGCAAGTTAGGCGGGTTTTCCCTTCCACGCTCGGCCGTTGAAGCGGTTACCAGTACAGGTTG--G---CC--C--A-GGTT-GCG-A-AG---C------AA----T--CAAGA---GG-TGCTA-TACGTTCATAAACATATGCCTATAGAGCCCCTGAAGACGCATCGCTGCTTGTCGAAAGGTTGAAAGCCCA-------------------------------------GTATCGCCCTTGGTTAGCACGCTGTCGCTGTGTCTAA-C----------------------------------------------------------------------------------------------------GCCTGCCACCGCGAATAGCTTTGTTCTCAAGCTCTGATGCGAGCACTGCAAAGTTCGTCATGAATTCACTATTATGGTGTAATGCTAAAGACCTAGAACGAAATTTGGTTTTCGGCAT-G-----A----A--------------C-CGG-T-T--TAT--C-GAT----AATC--CACA-AACC-AATG-T--A-TAC-AGA-A-GCCA-AATG--G-G--CGT-GGGGCAAAGCTTT-----------TACGCG--------CGTGA--TTC-------------------------A--TGAGAT-----------------------GTCAAGC----GA-----G--A------TAGAC-T-GTGAGTACA-GCGT-----C--C-AGTTG-GAC-AAG----TTCATCCTCAGTGCGTAGAGGCCT---------TC---------CTATTACCA-TACCTGC-GTCG-GCGCGGCTGAC---CCCCGAGC--AGAGCGGTGCGACTTTCTCATCTGAACGGCTGTTTCGGTCGGAT----------A--------"/>
+        <sequence id="seq_alternativo_UVUH01" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="-CCG--------------T-----TT-G------------A-GACTTGGATTTCGACTA------------ATTGAACGAATCGCTTGCCCCCCCTTAAGTAGCACAGCACGTCTCTGCCGCAGACCGTTGAAGCGAGTTGGCCCACTCATTCATAGCCACCCGTATCAATGCTCGATAAGCTTCCCAT---------------------------------------------AGGTGGATGTGGCAAGTTAGGCGGGTTTTCCCTTCCACGCTCGGCCGTTGAAGCGGTTACCAGTACAGGTTG--G---CC--C--A-GGTT-GCG-A-AG---C------AA----T--CAAGA---GG-TGCTA-TACGTTCATAAACATATGCCTATAGAGCCCCTGAAGACGCATCGCTGCTTGTCGAAAGGTTGAAAGCCCA------------------CTAACCC------------GTATCGCCCTTGGTTAGCACGCTGTCGCTGTGTCTAA-C----------------------------------------------------------------------------------------------------GCCTGCCACCGCGAATAGCTTTGTTCTCAAGCTCTGATGCGAGCACTGCAAAGTTCGTCATGAATTCACTATTATGGTGTAATGCTAAAGACCTAGAACGAAATTTGGTTTTCGGCAT-G-----A----A--------------C-CGG-T-T--TAT--C-GAT----AATC--CACA-AACC-AATG-T--A-TAC-AGA-A-GCCA-AATG--G-G--CGT-GGGGCAAAGCTTT-----------TACGCG--------CGTGA--TTC----------------------------TGAGAT-----------------------GTCAAGC----GA-----G--A------TAGAC-T-GTGAGTACA-GCGT-----C--C-AGTTG-GAC-AAG----TTCATCCTCAGTGCGTAGAGGCCT---------TC---------CTATTACCA-TACCTGC-GTCG-GCGCGGCTGAC-----CCGAGC--AGAGCGGTGCGACTTTCTCATCTGAACGGCTGTTTCGGTCGGAT----------A--TACTC-"/>
+        <sequence id="seq_alternativo_UWHC01" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="------------------T-----TT-G------------A-GACTTGGATTTCGACTA------------ATTGAACGAATCGCTTGCCCCCCCTTAAGTAGCACAGCACGTCTCTGCCGCAGACCGTTGAAGCGAGTTGGCCCACTCATTCATAGCCACCCGTATCAATGCTCGATAAGCTTCCCAT---------------------------------------------AGGTGGATGTGGCAAGTTAGGCGGGTTTTCCCTTCCACGCTCGGCCGTTGAAGCGGTTACCAGTACAGGTTG--G---CC--C--A-GGTT-GCG-A-AG---C------AA----T--CAAGA---GG-TGCTA-TACGTTCATAAACATATGCCTATAGAGCCCCTGAAGACGCATCGCTGCTTGTCGAAAGGTTGAAAGCCCA------------------CTAACCC------------GTATCGCCCTTGGTTAGCACGCTGTCGCTGTGTCTAA-C----------------------------------------------------------------------------------------------------GCCTGCCACCGCGAATAGCTTTGTTCTCAAGCTCTGATGCGAGCACTGCAAAGTTCGTCATGAATTCACTATTATGGTGTAATGCTAAAGACCTAGAACGAAATTTGGTTTTCGGCAT-G-----A----A--------------C-CGG-T-T--TAT--C-GAT----AATC--CACA-AACC-AATG-T--A-TAC-AGA-A-GCCA-AATG--G-G--CGT-GGGGCAAAGCTTT-----------TACGCG--------C---ACT--CCCGCATGGACTCGCAACTTGTATAC---TGAGAT-----------------------GTCAAGCCCCC--ATAAG-TC-TAGATCT---C-TTG-G-G----G-CG-GATAGCAA-T-GT--T-ACAAAGAAGCT--------------------------------TC---------CTATTACCA-TACCTGC-GTCG-GCGCGGCTGAC-----CCGAGC--AGAGCGGTGCGACTTTCTCATCTGAACGGCTGTTTCGGTCGGAT----------A--TACTC-"/>
+    </data>
+
+    <data
+id="UUNS01000012"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ012" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="GTTATTAGCTGCCGTTTAGGAGGGTGGATCCCAGGCGCGGCTCCCACTTGCCTCGGGAGCCAGCCGTCCATTCTCATCTCTCACTGGGACGCGAGGCCTCTGGCGTCGACTGGAACCTAGCGCAGTTCTTAGCTCTCCACAGGTATTACCTTCAACTTTCTTGCACCTTCTGATAACGCCCCTGATTAGTTTCTCCGACTGTATACGAACTACT-AACTCCAAAC--ATCC--------------CGGGC---TCACTGTCTAGCAAATCT--AGTAAGGCATAACTCGCTCAACTGTCGACGGAGGCCCGCGTCCAGAGGCAGGGTCTTATTGCTGGGTTGTCGCAGAACACCTAGCATGAGCGGTGCTCGCTCGGG-TTC-GCAATTCCTC-C-AC-GTGGTGGTGTCCTCCGAGAG-----TCTTAAGTC"/>
+        <sequence id="seq_alternativo_UTJN012" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T--CTCCAAAC--ATC-TGGCACGACTGTTT-----GAG-----------------------------------------------------------------------------------------------------------------------------C----GCAATTCCTCG-C-----------------------TGTGC---------"/>
+        <sequence id="seq_alternativo_UULO012" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T--CTCCAAAC--ATC-TGGCACGACTGTTT-----GAG-----------------------------------------------------------------------------------------------------------------------------C---T----------G----C----------------------------------"/>
+        <sequence id="seq_alternativo_UVUH012" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T--CTCCAAAC--ATC--GGCACGACTGTTT-----GAG------------------GA---------------------------------------------------------------------------------------------------------C---T----------G---------------------------------------"/>
+        <sequence id="seq_alternativo_UWHC012" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------T----------TT----TGGCACGACTGTTT-----GAG---------------------------------------------------------------------------------------------------------------GGTGCTCGCTCGGGC----GCAATTCCTCG---------------------------------------"/>
+    </data>
+
+    <data
+id="UUNS01000017"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ015" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="C-----AGACATATCCGGTATAACTCAATACTT------CGC--------------------ATGCCCT-"/>
+        <sequence id="seq_alternativo_UTJN015" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="-CCGTA-------------------------TT------CGC--------------TT--CG-------A"/>
+        <sequence id="seq_alternativo_UULO015" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="---------------------------------CCGTGG-C-AACA----------T-GTCGAT------"/>
+        <sequence id="seq_alternativo_UVUH015" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="---------------------------------CCGTGG-C-AACA----------T-GTCGAT------"/>
+        <sequence id="seq_alternativo_UWHC015" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="-------------------------------TT------CGC----AGTGTTTTTTT-GTCGAT------"/>
+    </data>
+
+    <data
+id="UUNS01000002"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ011" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="-----------ATTCGGGCGGGGGCTTGAGCT----AGCATGCAGTAGG"/>
+        <sequence id="seq_alternativo_UTJN011" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="--------------------------------C----------------"/>
+        <sequence id="seq_alternativo_UULO011" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="-------------------------------T---C-------------"/>
+        <sequence id="seq_alternativo_UVUH011" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="-------------------------------T-----------------"/>
+        <sequence id="seq_alternativo_UWHC011" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="GGCTCAGCGGA--------------------T-GC--------------"/>
+    </data>
+
+    <data
+id="UUNS01000014"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ013" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="TA---TCT-"/>
+        <sequence id="seq_alternativo_UTJN013" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="T-C-----T"/>
+        <sequence id="seq_alternativo_UULO013" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="TA-------"/>
+        <sequence id="seq_alternativo_UVUH013" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="TA-------"/>
+        <sequence id="seq_alternativo_UWHC013" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="-A-TCT---"/>
+    </data>
+
+    <data
+id="UUNS01000015"
+spec="Alignment"
+name="alignment">
+        <sequence id="seq_alternativo_UTGQ014" spec="Sequence" taxon="alternativo_UTGQ01" totalcount="4" value="GCAC-----CA-A--G"/>
+        <sequence id="seq_alternativo_UTJN014" spec="Sequence" taxon="alternativo_UTJN01" totalcount="4" value="----CAGTCG-T-GA-"/>
+        <sequence id="seq_alternativo_UULO014" spec="Sequence" taxon="alternativo_UULO01" totalcount="4" value="----CAGTCG-T-GA-"/>
+        <sequence id="seq_alternativo_UVUH014" spec="Sequence" taxon="alternativo_UVUH01" totalcount="4" value="----CAGTCG-T-GA-"/>
+        <sequence id="seq_alternativo_UWHC014" spec="Sequence" taxon="alternativo_UWHC01" totalcount="4" value="----CAGTCG-T-GA-"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="2000000" storeEvery="10000">
+        <state id="state" spec="State" storeEvery="10000">
+            <stateNode id="Tree.t:UUNS01000001" spec="bacter.model.SimulatedACG" delta="1000.0" rho="0.0">
+                <populationModel id="ConstantPopulation.0" spec="ConstantPopulation">
+                    <parameter id="RealParameter.0" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+                </populationModel>
+                <locus id="locus.UUNS01000001" spec="bacter.Locus">
+                    <alignment idref="UUNS01000001"/>
+                </locus>
+                <locus id="locus.UUNS01000012" spec="bacter.Locus">
+                    <alignment idref="UUNS01000012"/>
+                </locus>
+                <locus id="locus.UUNS01000017" spec="bacter.Locus">
+                    <alignment idref="UUNS01000017"/>
+                </locus>
+                <locus id="locus.UUNS01000002" spec="bacter.Locus">
+                    <alignment idref="UUNS01000002"/>
+                </locus>
+                <locus id="locus.UUNS01000014" spec="bacter.Locus">
+                    <alignment idref="UUNS01000014"/>
+                </locus>
+                <locus id="locus.UUNS01000015" spec="bacter.Locus">
+                    <alignment idref="UUNS01000015"/>
+                </locus>
+                <taxonset id="TaxonSet.1" spec="TaxonSet" alignment="@UUNS01000001"/>
+            </stateNode>
+            <parameter id="popFinalSize.t:UUNS01000001" spec="parameter.RealParameter" name="stateNode">1.0</parameter>
+            <parameter id="popGrowthRate.t:UUNS01000001" spec="parameter.RealParameter" name="stateNode">0.1</parameter>
+        </state>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="CoalescentExponential.t:UUNS01000001" spec="bacter.model.ACGCoalescent" tree="@Tree.t:UUNS01000001">
+                    <populationModel id="popModelExponentialGrowth.t:UUNS01000001" spec="ExponentialGrowth" growthRate="@popGrowthRate.t:UUNS01000001" popSize="@popFinalSize.t:UUNS01000001"/>
+                    <parameter id="rho.t:UUNS01000001" spec="parameter.RealParameter" estimate="false" name="rho">1.0E-4</parameter>
+                    <parameter id="delta.t:UUNS01000001" spec="parameter.RealParameter" estimate="false" name="delta">500.0</parameter>
+                </distribution>
+                <prior id="popFinalSizePrior.t:UUNS01000001" name="distribution" x="@popFinalSize.t:UUNS01000001">
+                    <LogNormal id="LogNormalDistributionModel.1" name="distr">
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="M">0.0</parameter>
+                        <parameter id="RealParameter.9" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">500.0</parameter>
+                    </LogNormal>
+                </prior>
+                <prior id="popGrowthRatePrior.t:UUNS01000001" name="distribution" x="@popGrowthRate.t:UUNS01000001">
+                    <LogNormal id="LogNormalDistributionModel.2" name="distr">
+                        <parameter id="RealParameter.10" spec="parameter.RealParameter" estimate="false" name="M">0.0</parameter>
+                        <parameter id="RealParameter.11" spec="parameter.RealParameter" estimate="false" lower="0.0" name="S" upper="5.0">2.0</parameter>
+                    </LogNormal>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution">
+                <distribution id="treeLikelihood.UUNS01000001" spec="bacter.model.ACGLikelihood" data="@UUNS01000001" locus="@locus.UUNS01000001" tree="@Tree.t:UUNS01000001">
+                    <siteModel id="SiteModel.s:UUNS01000001" spec="SiteModel">
+                        <parameter id="mutationRate.s:UUNS01000001" spec="parameter.RealParameter" estimate="false" name="mutationRate">1.0</parameter>
+                        <parameter id="gammaShape.s:UUNS01000001" spec="parameter.RealParameter" estimate="false" name="shape">1.0</parameter>
+                        <parameter id="proportionInvariant.s:UUNS01000001" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="JC69.s:UUNS01000001" spec="JukesCantor"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:UUNS01000001" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:UUNS01000001" spec="parameter.RealParameter" estimate="false" name="clock.rate">0.005</parameter>
+                    </branchRateModel>
+                </distribution>
+                <distribution id="treeLikelihood.UUNS01000002" spec="bacter.model.ACGLikelihood" branchRateModel="@StrictClock.c:UUNS01000001" data="@UUNS01000002" locus="@locus.UUNS01000002" siteModel="@SiteModel.s:UUNS01000001" tree="@Tree.t:UUNS01000001"/>
+                <distribution id="treeLikelihood.UUNS01000012" spec="bacter.model.ACGLikelihood" branchRateModel="@StrictClock.c:UUNS01000001" data="@UUNS01000012" locus="@locus.UUNS01000012" siteModel="@SiteModel.s:UUNS01000001" tree="@Tree.t:UUNS01000001"/>
+                <distribution id="treeLikelihood.UUNS01000014" spec="bacter.model.ACGLikelihood" branchRateModel="@StrictClock.c:UUNS01000001" data="@UUNS01000014" locus="@locus.UUNS01000014" siteModel="@SiteModel.s:UUNS01000001" tree="@Tree.t:UUNS01000001"/>
+                <distribution id="treeLikelihood.UUNS01000015" spec="bacter.model.ACGLikelihood" branchRateModel="@StrictClock.c:UUNS01000001" data="@UUNS01000015" locus="@locus.UUNS01000015" siteModel="@SiteModel.s:UUNS01000001" tree="@Tree.t:UUNS01000001"/>
+                <distribution id="treeLikelihood.UUNS01000017" spec="bacter.model.ACGLikelihood" branchRateModel="@StrictClock.c:UUNS01000001" data="@UUNS01000017" locus="@locus.UUNS01000017" siteModel="@SiteModel.s:UUNS01000001" tree="@Tree.t:UUNS01000001"/>
+            </distribution>
+        </distribution>
+        <operator id="ACGscale.t:UUNS01000001" spec="bacter.operators.ACGScaler" acg="@Tree.t:UUNS01000001" scaleFactor="0.8" weight="1.0"/>
+        <operator id="addRemoveRedundant.t:UUNS01000001" spec="bacter.operators.AddRemoveRedundantConversion" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CRswap.t:UUNS01000001" spec="bacter.operators.ConvertedRegionSwap" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CRshift.t:UUNS01000001" spec="bacter.operators.ConvertedRegionShift" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CRBshift.t:UUNS01000001" spec="bacter.operators.ConvertedRegionBoundaryShift" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="mergeSplit.t:UUNS01000001" spec="bacter.operators.MergeSplitConversion" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CEhop.t:UUNS01000001" spec="bacter.operators.ConvertedEdgeHop" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CEflip.t:UUNS01000001" spec="bacter.operators.ConvertedEdgeFlip" acg="@Tree.t:UUNS01000001" weight="1.0"/>
+        <operator id="CEslide.t:UUNS01000001" spec="bacter.operators.ConvertedEdgeSlide" acg="@Tree.t:UUNS01000001" apertureSize="0.05" weight="1.0"/>
+        <operator id="addRemove_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.AddRemoveConversion" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" weight="10.0"/>
+        <operator id="addRemoveDetour_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.AddRemoveDetour" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFUniform_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFUniform" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFWB_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFWilsonBalding" acg="@Tree.t:UUNS01000001" alpha="0.1" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFCS_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFConversionSwap" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFSTS_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFSubtreeSlide" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFSTXnarrow_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFSubtreeExchange" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="CFSTXwide_popModelExponentialGrowth.t:UUNS01000001" spec="bacter.operators.CFSubtreeExchange" acg="@Tree.t:UUNS01000001" delta="@delta.t:UUNS01000001" isNarrow="false" populationModel="@popModelExponentialGrowth.t:UUNS01000001" rho="@rho.t:UUNS01000001" weight="10.0"/>
+        <operator id="popFinalSizeScaler.t:UUNS01000001" spec="ScaleOperator" parameter="@popFinalSize.t:UUNS01000001" scaleFactor="0.8" weight="1.0"/>
+        <operator id="popGrowthRateScaler.t:UUNS01000001" spec="ScaleOperator" parameter="@popGrowthRate.t:UUNS01000001" scaleFactor="0.8" weight="1.0"/>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log id="ACGStatsLog.t:UUNS01000001" spec="bacter.util.ConversionGraphStatsLogger" acg="@Tree.t:UUNS01000001"/>
+            <log idref="popFinalSize.t:UUNS01000001"/>
+            <log idref="popGrowthRate.t:UUNS01000001"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="ACGlogger.t:UUNS01000001" spec="Logger" fileName="$(filebase).$(tree).trees" logEvery="1000" mode="tree">
+            <log idref="Tree.t:UUNS01000001"/>
+        </logger>
+    </run>
+
+</beast>
