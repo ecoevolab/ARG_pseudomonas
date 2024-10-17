@@ -153,3 +153,11 @@ for (i in seq_along(tabla_genomas)) {
 
 # Imprimir resultados
 print(resultados)
+
+cepas_name <- tablas_elegidas[["137_Eyach_11_12_2015_a_OTU1"]]$cepas
+
+# Especifica la ruta del archivo
+archivo <- "nombres.txt"
+
+# Escribe el vector en el archivo
+write(cepas_name, file = archivo)
